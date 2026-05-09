@@ -1,0 +1,13 @@
+# Vercel CLI local link — not needed for GitHub auto-deploy
+.vercel/
+
+# Editor / OS / tooling
+.DS_Store
+.claude/
+.idea/
+.vscode/
+*.swp
+*.log
+
+# Dependencies (none currently — vanilla static site)
+node_modules/

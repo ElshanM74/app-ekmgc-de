@@ -1,0 +1,33 @@
+# app.ekmgc.de — EU AI Act Quick Scan
+# Operated by EKM Global Consulting GmbH (Baden-Baden, Germany)
+
+User-agent: *
+Allow: /
+
+# LLM/AI crawler manifest (per llmstxt.org proposed standard)
+# https://app.ekmgc.de/llms.txt
+
+# Sitemap
+Sitemap: https://app.ekmgc.de/sitemap.xml
+
+# Allow all major search and AI crawlers explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /

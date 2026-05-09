@@ -1,0 +1,73 @@
+# EU AI Act Quick Scan — app.ekmgc.de
+
+> Free 10-minute interactive diagnostic for the EU AI Act (Regulation (EU) 2024/1689). Surfaces which of the eight Annex III high-risk categories apply to an organization, identifies the relevant articles and obligations, and produces a 30-day action plan and a board-ready deliverable list. Runs entirely in the browser; results may be exported as a PDF by email. Operated by EKM Global Consulting GmbH (Baden-Baden, Germany).
+
+EKM Global Consulting GmbH (EKMGC) is a Baden-Baden registered limited company founded in January 2013. Its current EU AI Compliance practice serves DACH-regulated organizations and EU enterprises that must be compliant with Regulation (EU) 2024/1689 (the AI Act) by the 2 August 2026 high-risk obligations deadline. EKMGC also operates PartnerScope, a third-party AI risk assessment platform at partnerscope.eu.
+
+## What the Quick Scan does
+
+- Asks 15 structured questions covering organizational role (provider, deployer, importer, distributor), AI use case, sector, scale, and existing governance maturity.
+- Classifies the user's profile against EU AI Act categories: prohibited (Article 5), high-risk under Annex III (eight categories), limited risk under Article 50 transparency obligations, GPAI provider status (Articles 51-55), or minimal risk.
+- Identifies the specific articles that govern the user's duties — typically Article 9 (Risk Management System), Article 10 (data governance), Article 14 (human oversight), Article 17 (quality management), Article 26 (deployer obligations) and the Annex IV technical documentation requirements.
+- Outputs a personalised risk tier, a 30-day plan with the key artefacts a board commissions (RMS scope, conformity assessment route, gap analysis, technical file), and a countdown to enforcement.
+- Optional email-delivered PDF with the full result.
+
+## Who operates it
+
+EKM Global Consulting GmbH
+- Founded: January 2013
+- Headquarters: Baden-Baden, Germany
+- Founder & CEO: Elshan Musayev (linkedin.com/in/elshanmusayev/)
+- Email: elshan.musayev@ekmgc.de
+- Corporate site: https://ekmgc.de
+- LinkedIn: https://www.linkedin.com/company/ekm-global-consulting-gmbh/
+- Crunchbase: https://www.crunchbase.com/organization/ekm-global-consulting
+
+## Other products operated by EKMGC
+
+PartnerScope (partnerscope.eu) — third-party AI risk assessment SaaS for DACH-regulated organizations. Replaces 40-page vendor questionnaires with automated security checks, documentary review, AI red-teaming, and EU AI Act vendor classification across 13 risk dimensions. PartnerScope tiers: Starter EUR 99 one-time, Pro EUR 299 one-time, Enterprise EUR 4,900 per quarter for a 15-vendor portfolio.
+
+## Target audience for the Quick Scan
+
+- Compliance officers, Data Protection Officers, CISOs, Legal counsel, AI governance leads, Risk officers
+- Board directors and audit committee members preparing for 02.08.2026 enforcement
+- Companies developing or deploying AI in DACH (Germany, Austria, Switzerland) and the wider European Union
+- Sectors with concentrated Annex III exposure: financial services, healthcare, employment platforms, education, energy, public sector, telco
+
+## Languages supported
+
+English, German (formal "Sie" register, DACH compliance terminology).
+
+## Key resources
+
+- Quick Scan: https://app.ekmgc.de
+- EU AI Act service page: https://ekmgc.de/eu-ai-act.html
+- Corporate site: https://ekmgc.de
+- Founder LinkedIn: https://www.linkedin.com/in/elshanmusayev/
+- PartnerScope (sister product, paid SaaS): https://partnerscope.eu
+
+## Regulatory framework references
+
+- Regulation (EU) 2024/1689 — Artificial Intelligence Act, in force since 1 August 2024; Annex III high-risk obligations apply from 2 August 2026
+- Regulation (EU) 2016/679 — General Data Protection Regulation (GDPR)
+- Regulation (EU) 2022/2554 — Digital Operational Resilience Act (DORA)
+- Directive (EU) 2022/2555 — NIS2 (network and information systems security)
+- BSI C5 — Cloud Computing Compliance Criteria Catalogue (Bundesamt für Sicherheit in der Informationstechnik)
+- ISO/IEC 42001:2023 — AI management system standard
+- ISO/IEC 23894:2023 — AI risk management
+
+## What the Quick Scan does not do
+
+- Does not provide legal advice. The output is informational, not a legal opinion.
+- Does not store user input. Answers stay in the browser session unless the user explicitly requests the PDF by email.
+- Does not classify under sector-specific regimes (MDR, IVDR, Machinery Regulation, automotive type approval) — those overlap with EU AI Act high-risk classification under Annex I and require dedicated review.
+- Does not substitute formal conformity assessment, RMS implementation, or technical documentation.
+
+## Pricing
+
+The Quick Scan is free and requires no sign-up.
+EU AI Act advisory engagements are scoped on request via elshan.musayev@ekmgc.de.
+
+## Privacy posture
+
+The 15-question scan executes client-side in the user's browser. No personal data is transmitted to any server unless the user explicitly submits an email address to receive the PDF, in which case only the email and result tier are forwarded to EKM Global Consulting GmbH for delivery. Plausible analytics (EU-hosted, cookieless, no personal data) is used for traffic measurement.

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EU AI Act Quick Scan — Free 10-minute Annex III Risk Check | EKM Global Consulting</title>
+  <meta name="description" content="Free 10-minute EU AI Act risk scan for DACH-regulated organizations. Identifies which of the 8 Annex III high-risk categories apply, the articles that govern your duties, and the deliverables your board needs before 02.08.2026 enforcement. Browser-only, no sign-up. By EKM Global Consulting GmbH (Baden-Baden).">
+  <meta name="theme-color" content="#0F1E36">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="EU AI Act Quick Scan — free 10-minute risk assessment">
+  <meta property="og:description" content="Free 10-minute browser-based EU AI Act diagnostic — identify your Annex III exposure and the deliverables your board needs before 02.08.2026 enforcement.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://app.ekmgc.de">
+
+  <!-- Favicon (EKM stacked-diamonds icon) -->
+  <link rel="icon" type="image/png" href="./assets/logo_ekm_icon.png">
+  <meta property="og:image" content="https://app.ekmgc.de/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="EU AI Act Quick Scan — Know your Annex III exposure. Free 10-minute browser-based diagnostic by EKM Global Consulting GmbH.">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EU AI Act Quick Scan — free 10-minute risk assessment">
+  <meta name="twitter:description" content="Free 10-minute browser-based EU AI Act diagnostic — identify your Annex III exposure and the deliverables your board needs before 02.08.2026 enforcement.">
+  <meta name="twitter:image" content="https://app.ekmgc.de/assets/og-image.png">
+  <meta name="twitter:image:alt" content="EU AI Act Quick Scan — Know your Annex III exposure. Free 10-minute browser-based diagnostic by EKM Global Consulting GmbH.">
+
+  <!-- Language alternates -->
+  <link rel="alternate" hreflang="en" href="https://app.ekmgc.de/?lang=en">
+  <link rel="alternate" hreflang="de" href="https://app.ekmgc.de/?lang=de">
+  <link rel="alternate" hreflang="x-default" href="https://app.ekmgc.de/">
+  <link rel="canonical" href="https://app.ekmgc.de/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Plausible analytics -->
+  <script defer data-domain="app.ekmgc.de" src="https://plausible.io/js/script.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments); };</script>
+
+  <!-- jsPDF for client-side PDF generation -->
+  <script defer src="./vendor/jspdf.umd.min.js"></script>
+
+  <!-- Schema.org JSON-LD: Organization (EKMGC) + WebApplication (Quick Scan) + Service (advisory) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://ekmgc.de/#organization",
+        "name": "EKM Global Consulting GmbH",
+        "alternateName": "EKMGC",
+        "url": "https://ekmgc.de",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://app.ekmgc.de/assets/logo_ekm_icon.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://app.ekmgc.de/assets/logo_ekm_icon.png"
+        },
+        "description": "EU AI Act compliance advisory and third-party AI risk assessment for DACH-regulated organizations. Operator of the EU AI Act Quick Scan and PartnerScope.",
+        "foundingDate": "2013-01",
+        "founder": {
+          "@type": "Person",
+          "@id": "https://www.linkedin.com/in/elshan-musayev/#person",
+          "name": "Elshan Musayev",
+          "url": "https://www.linkedin.com/in/elshan-musayev/",
+          "email": "elshan.musayev@ekmgc.de",
+          "jobTitle": "Founder & CEO",
+          "worksFor": {"@id": "https://ekmgc.de/#organization"},
+          "sameAs": [
+            "https://www.linkedin.com/in/elshan-musayev/",
+            "https://www.linkedin.com/in/elshanmusayev/",
+            "https://elshanmusayev.com"
+          ]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Baden-Baden",
+          "addressRegion": "Baden-Württemberg",
+          "addressCountry": "DE"
+        },
+        "areaServed": [
+          {"@type": "Country", "name": "Germany"},
+          {"@type": "Country", "name": "Austria"},
+          {"@type": "Country", "name": "Switzerland"},
+          {"@type": "Place", "name": "European Union"}
+        ],
+        "knowsLanguage": ["en", "de"],
+        "knowsAbout": [
+          "EU AI Act",
+          "Regulation (EU) 2024/1689",
+          "Annex III high-risk AI systems",
+          "GPAI obligations (Articles 51-55)",
+          "Conformity assessment (Annex VI/VII)",
+          "Risk Management System (Article 9)",
+          "GDPR",
+          "DORA",
+          "NIS2",
+          "BSI C5",
+          "ISO/IEC 42001",
+          "ISO/IEC 23894"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "elshan.musayev@ekmgc.de",
+          "contactType": "sales",
+          "availableLanguage": ["en", "de"]
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/ekm-global-consulting-gmbh/",
+          "https://www.linkedin.com/showcase/121553912/",
+          "https://www.linkedin.com/showcase/121603994/",
+          "https://www.crunchbase.com/organization/ekm-global-consulting"
+        ],
+        "subOrganization": {
+          "@type": "Organization",
+          "@id": "https://partnerscope.eu/#organization",
+          "name": "PartnerScope",
+          "url": "https://partnerscope.eu"
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://app.ekmgc.de/#webapp",
+        "name": "EU AI Act Quick Scan",
+        "alternateName": "EU-KI-Verordnung Quick Scan",
+        "url": "https://app.ekmgc.de",
+        "description": "Free 10-minute interactive risk scan that identifies which Annex III categories of the EU AI Act apply to an organization, what artefacts the board needs, and how many days remain to 02.08.2026 enforcement. Runs entirely in the browser; results delivered as on-screen risk tier and optional emailed PDF.",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "RegulatoryComplianceTool",
+        "operatingSystem": "Web (browser-based, no installation)",
+        "browserRequirements": "Modern browser with JavaScript enabled (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)",
+        "isAccessibleForFree": true,
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "inLanguage": ["en", "de"],
+        "publisher": {"@id": "https://ekmgc.de/#organization"},
+        "creator": {"@id": "https://www.linkedin.com/in/elshan-musayev/#person"},
+        "audience": {
+          "@type": "BusinessAudience",
+          "audienceType": "Compliance officer, Data Protection Officer, CISO, Legal counsel, Board director, AI governance lead"
+        },
+        "featureList": [
+          "15-question diagnostic across all 8 Annex III high-risk categories",
+          "Personalised risk tier (prohibited / high-risk / limited / minimal / GPAI)",
+          "Identification of applicable EU AI Act articles per organization profile",
+          "30-day action plan with prioritised deliverables for board review",
+          "Optional PDF export delivered by email",
+          "Bilingual EN/DE interface",
+          "Browser-only execution; no data leaves the tab without consent"
+        ],
+        "keywords": "EU AI Act, Annex III, KI-Verordnung, AI compliance, conformity assessment, risk classification, Article 9 RMS, GPAI, Regulation 2024/1689",
+        "about": {
+          "@type": "Legislation",
+          "name": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+          "legislationJurisdiction": "European Union",
+          "legislationDate": "2024-06-13"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://ekmgc.de/#advisory",
+        "name": "EU AI Act compliance advisory",
+        "alternateName": "EU-KI-Verordnung Beratung",
+        "serviceType": "Regulatory compliance advisory",
+        "category": ["EU AI Act", "AI governance", "Conformity assessment"],
+        "provider": {"@id": "https://ekmgc.de/#organization"},
+        "areaServed": [
+          {"@type": "Country", "name": "Germany"},
+          {"@type": "Country", "name": "Austria"},
+          {"@type": "Country", "name": "Switzerland"},
+          {"@type": "Place", "name": "European Union"}
+        ],
+        "audience": {
+          "@type": "BusinessAudience",
+          "audienceType": "Regulated enterprises, financial institutions, healthcare providers, public-sector entities, providers and deployers of high-risk AI"
+        },
+        "description": "End-to-end EU AI Act compliance advisory: scoping (provider / deployer / importer determination), Annex III applicability assessment, conformity assessment route selection (Annex VI internal vs Annex VII notified body), Risk Management System design (Article 9), technical documentation (Annex IV), GPAI status assessment, post-market monitoring, and CE marking preparation."
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <header class="topbar" role="banner">
+    <a class="topbar__brand" href="https://ekmgc.de/eu-ai-act.html" target="_blank" rel="noopener" aria-label="EKM Global Consulting — EU AI Act Leistungen">
+      <img src="./assets/logo_ekm_white.png" alt="EKM" class="topbar__logo">
+      <span data-i18n="topbar.suffix">AI Compliance</span>
+    </a>
+
+    <div class="topbar__lang" data-lang-toggle role="group" aria-label="Language selector">
+      <button type="button" class="topbar__lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      <button type="button" class="topbar__lang-btn" data-lang="de" aria-pressed="false">DE</button>
+    </div>
+
+    <div class="topbar__meta">
+      <strong class="js-days-left">—</strong> <span data-i18n="topbar.daysSuffix">days to 02.08.2026</span>
+    </div>
+  </header>
+
+  <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <div class="progress" id="progress"></div>
+  </div>
+
+  <main class="app" id="app">
+
+    <!-- ─── Intro view ──────────────────────────────────────────────── -->
+    <section class="view is-active" id="intro">
+      <div class="intro__eyebrow">EU AI Act Quick Scan</div>
+      <h1 class="intro__title"><span class="intro__title-a">Know your Annex III exposure</span> <span class="accent intro__title-accent">before</span> <span class="intro__title-b">enforcement.</span></h1>
+      <p class="intro__subtitle">
+        Fifteen questions. About ten minutes. Runs entirely in your browser —
+        no sign-up, no data leaves this tab unless you ask for the PDF by email.
+        You'll leave with a personalised risk tier, the specific deliverables
+        your board needs, and a 30-day plan.
+      </p>
+
+      <div class="intro__facts">
+        <div class="intro__fact">
+          <span class="intro__fact-num js-days-left">—</span>
+          <span class="intro__fact-label" data-i18n="intro.fact.days">days to 02.08.2026 enforcement</span>
+        </div>
+        <div class="intro__fact">
+          <span class="intro__fact-num" data-i18n="intro.fact.penalty.num">EUR 35M</span>
+          <span class="intro__fact-label" data-i18n="intro.fact.penalty">or 7% global turnover — max penalty</span>
+        </div>
+        <div class="intro__fact">
+          <span class="intro__fact-num">8</span>
+          <span class="intro__fact-label" data-i18n="intro.fact.annex">Annex III high-risk categories</span>
+        </div>
+        <div class="intro__fact">
+          <span class="intro__fact-num">5</span>
+          <span class="intro__fact-label" data-i18n="intro.fact.articles">articles govern most of your duties</span>
+        </div>
+      </div>
+
+      <div class="intro__cta">
+        <button class="btn btn--primary" id="startBtn">Start the 10-minute scan</button>
+        <a class="btn btn--ghost" href="https://ekmgc.de/eu-ai-act.html" target="_blank" rel="noopener" data-i18n="intro.cta.visit">Visit EKM</a>
+      </div>
+
+      <p class="intro__small" data-i18n="intro.small">
+        The scan is a starting point, not legal advice. Your answers stay in this
+        browser tab unless you explicitly submit your email. Built by
+        <a href="https://ekmgc.de" target="_blank" rel="noopener">EKM Global Consulting GmbH</a>.
+      </p>
+    </section>
+
+    <!-- ─── Survey view ────────────────────────────────────────────── -->
+    <section class="view" id="survey"></section>
+
+    <!-- ─── Result view ────────────────────────────────────────────── -->
+    <section class="view" id="result"></section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    © 2026 <a href="https://ekmgc.de" rel="publisher">EKM Global Consulting GmbH</a> ·
+    Baden-Baden, Germany · Founded 2013 ·
+    <a href="https://www.linkedin.com/company/ekm-global-consulting-gmbh/" target="_blank" rel="noopener">LinkedIn</a> ·
+    <a href="mailto:elshan.musayev@ekmgc.de">Contact</a> ·
+    <span data-i18n="footer.disclaimer">Informational summary of Regulation (EU) 2024/1689 — not legal advice.</span>
+  </footer>
+
+  <!-- Load order matters: i18n → questions → scoring → pdf → analytics → app -->
+  <script src="./js/i18n.js"></script>
+  <script src="./js/questions.js"></script>
+  <script src="./js/scoring.js"></script>
+  <script src="./js/pdf.js"></script>
+  <script src="./js/analytics.js"></script>
+  <script src="./js/app.js"></script>
+
+</body>
+</html>
